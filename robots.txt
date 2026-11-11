@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wutunglee.github.io/dr-li-anesthesia/sitemap.xml

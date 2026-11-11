@@ -4,11 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>黎乃良 麻醉專科醫師｜麻醉防線・黎醫師</title>
-<meta name="description" content="黎乃良醫師，台大醫院麻醉專科訓練，近三十年麻醉經驗，長年服務於癌症治療醫院與醫美手術中心。提供診所／手術中心麻醉支援合作，以及手術病人術前麻醉諮詢。">
+<meta name="description" content="黎乃良醫師，台大醫院麻醉專科訓練，近三十年麻醉經驗，曾任和信治癌中心醫院麻醉科資深主治醫師。專長全身麻醉、區域麻醉、術後止痛與疼痛管理，提供診所／手術中心麻醉支援合作與術前麻醉諮詢。">
 <meta property="og:title" content="黎乃良 麻醉專科醫師｜麻醉防線・黎醫師">
 <meta property="og:description" content="近三十年麻醉經驗，專注手術麻醉、術前評估與安全管理。診所／手術中心麻醉支援合作與術前諮詢。">
 <meta property="og:type" content="profile">
-<meta property="og:image" content="img/portrait.jpg">
+<meta property="og:image" content="img/headshot.jpg">
+<link rel="icon" href="img/logo-dark.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@500;700&display=swap" rel="stylesheet">
@@ -17,10 +18,11 @@
   "@context": "https://schema.org",
   "@type": "Physician",
   "name": "黎乃良",
-  "alternateName": "Li Nai-Liang",
-  "description": "麻醉專科醫師，台大醫院麻醉專科訓練，曾任和信治癌中心醫院麻醉科資深主治醫師。",
+  "alternateName": "Nai-Liang Li, M.D.",
+  "description": "麻醉專科醫師，台大醫院麻醉專科訓練，曾任和信治癌中心醫院麻醉科資深主治醫師，現任臺大醫院麻醉科兼任主治醫師。",
   "medicalSpecialty": "Anesthesia",
-  "image": "img/portrait.jpg",
+  "image": "img/headshot.jpg",
+  "knowsAbout": ["全身麻醉", "區域麻醉", "脊側神經阻斷", "術後止痛", "疼痛管理"],
   "alumniOf": [
     {"@type": "CollegeOrUniversity", "name": "國立台灣大學 醫學系"},
     {"@type": "CollegeOrUniversity", "name": "國立政治大學 經營管理碩士"}
@@ -36,9 +38,12 @@ img{max-width:100%;height:auto;display:block}
 .wrap{max-width:1120px;margin:0 auto;padding-left:24px;padding-right:24px}
 .eyebrow{margin:0 0 8px;font-size:14px;letter-spacing:.24em;color:#55575C}
 .serif{font-family:'Noto Serif TC',serif}
-header{position:sticky;top:0;z-index:10;background:rgba(247,246,243,.94);border-bottom:1px solid #E2E0DA;backdrop-filter:blur(6px)}
+h2.sec{margin:0 0 12px;font-size:clamp(30px,4vw,40px);font-weight:900}
+.lead{margin:0 0 40px;font-size:17px;line-height:1.7;color:#45474c;max-width:640px}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);border-bottom:1px solid #E2E0DA;backdrop-filter:blur(6px)}
 .bar{min-height:68px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 24px}
-.brand{font-size:17px;font-weight:700;letter-spacing:.08em;color:#141414;text-decoration:none}
+.brand{display:flex;align-items:center;gap:10px;font-size:17px;font-weight:700;letter-spacing:.08em;color:#141414;text-decoration:none}
+.brand img{width:30px;height:auto}
 nav{display:flex;flex-wrap:wrap;gap:4px}
 nav a{font-size:15px;color:#33353a;text-decoration:none;padding:12px}
 nav a.cta{color:#fff;background:#141414;padding:12px 20px}
@@ -49,36 +54,64 @@ nav a.cta{color:#fff;background:#141414;padding:12px 20px}
 .btn.dark{background:#141414;color:#fff}.btn.line{border:1px solid #141414;color:#141414}
 .white{background:#fff;border-top:1px solid #E2E0DA;border-bottom:1px solid #E2E0DA}
 p.body{margin:0;font-size:17px;line-height:1.9}
-.callout{display:flex;gap:12px;align-items:flex-start;padding:18px 20px;background:#F7F6F3}
+.callout{display:flex;gap:12px;align-items:flex-start;padding:18px 20px;background:#fff}
 .callout p{margin:0;font-size:17px;line-height:1.7;font-weight:700}
 .callout svg{flex:none;margin-top:3px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));border-top:1px solid #141414;border-bottom:1px solid #D9D6CF}
+.stat{padding:28px 20px;border-right:1px solid #D9D6CF}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-size:40px;font-weight:900;line-height:1.1}
+.stat span{display:block;margin-top:8px;font-size:15px;color:#45474c;line-height:1.5}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.skill{background:#F7F6F3;padding:28px 24px;display:flex;flex-direction:column;gap:10px}
+.skill h3{margin:0;font-size:20px}
+.skill p{margin:0;font-size:16px;line-height:1.75;color:#33353a}
+.timeline{list-style:none;margin:0;padding:0;border-left:2px solid #141414}
+.timeline li{position:relative;padding:0 0 28px 28px}
+.timeline li::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;background:#F7F6F3;border:2px solid #141414;border-radius:50%}
+.timeline li.now::before{background:#1F3A5F;border-color:#1F3A5F}
+.timeline .yr{font-size:14px;letter-spacing:.06em;color:#55575C}
+.timeline .role{margin-top:4px;font-size:18px;font-weight:700;line-height:1.5}
 details{border-bottom:1px solid #D9D6CF}
 summary{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 4px;cursor:pointer;font-size:22px;font-weight:700;list-style:none}
+summary small{font-size:15px;font-weight:400;color:#55575C;margin-left:10px}
 summary::-webkit-details-marker{display:none}
-summary::after{content:"+";font-size:26px;font-weight:400;color:#55575C;width:24px;text-align:center}
+summary::after{content:"+";font-size:26px;font-weight:400;color:#55575C;width:24px;text-align:center;flex:none}
 details[open] summary::after{content:"−"}
-details ul{margin:0;padding:0 4px 28px 24px;display:flex;flex-direction:column;gap:10px}
+details ul,details ol{margin:0;padding:0 4px 28px 28px;display:flex;flex-direction:column;gap:10px}
 details li{font-size:16px;line-height:1.7;color:#26282c}
+.photos{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.photos figure{margin:0}
+.photos img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.photos figcaption{margin-top:10px;font-size:14px;color:#55575C}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
 .note{display:flex;flex-direction:column;gap:16px;padding:28px 24px;background:#F7F6F3;color:#141414;text-decoration:none;min-height:220px}
 .note .tag{font-size:13px;letter-spacing:.12em;color:#1F3A5F;font-weight:700}
 .note .t{font-size:21px;line-height:1.5;font-weight:700;flex-grow:1}
 .note .more{font-size:15px;font-weight:500;text-decoration:underline;text-underline-offset:4px}
 .forms{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
-.card{display:flex;flex-direction:column;gap:16px;padding:40px 32px}
+.card{display:flex;flex-direction:column;background:#fff;border:1px solid #141414}
+.card img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.card .in{display:flex;flex-direction:column;gap:14px;padding:32px 28px;flex-grow:1}
 .card h3{margin:0;font-size:26px}
-.card p{margin:0;font-size:17px;line-height:1.8;flex-grow:1}
+.card p{margin:0;font-size:17px;line-height:1.8;color:#33353a;flex-grow:1}
 .card .btn{min-height:52px;font-weight:700}
-footer{background:#111;color:#fff}
+.quote{background:#0B0B0B;color:#fff}
+.quote .row{align-items:center;gap:0}
+.quote .ph{flex:1 1 420px;min-width:0}
+.quote .ph img{width:100%;height:100%;object-fit:cover}
+.quote .tx{flex:1 1 380px;padding:56px 40px;display:flex;flex-direction:column;gap:28px}
+footer{background:#0B0B0B;color:#B5B5B5;border-top:1px solid #2a2a2a}
 </style>
 </head>
 <body>
 
 <header>
 <div class="wrap bar">
-<a class="brand" href="#top">麻醉防線・黎醫師</a>
+<a class="brand" href="#top"><img src="img/logo-dark.png" alt="" width="30" height="34">麻醉防線・黎醫師</a>
 <nav aria-label="主選單">
 <a href="#about">黎乃良醫師</a>
+<a href="#expertise">專長</a>
 <a href="#notes">專欄分享</a>
 <a class="cta" href="#contact">聯繫醫師</a>
 </nav>
@@ -86,7 +119,9 @@ footer{background:#111;color:#fff}
 </header>
 
 <main>
-<section id="top" class="wrap" style="padding-top:72px;padding-bottom:56px">
+<!-- 首屏 -->
+<section id="top" style="background:#fff">
+<div class="wrap" style="padding-top:56px;padding-bottom:40px">
 <div class="row" style="align-items:center">
 <div class="main" style="gap:24px">
 <p class="eyebrow" style="margin:0">ANESTHESIOLOGIST · 麻醉專科醫師</p>
@@ -103,13 +138,25 @@ footer{background:#111;color:#fff}
 </div>
 </div>
 <div class="side" style="display:flex;justify-content:center">
-<img src="img/portrait.jpg" alt="黎乃良醫師穿著白袍的形象照" width="400" height="690" style="max-width:380px">
+<img src="img/portrait.jpg" alt="黎乃良醫師穿著白袍的形象照" width="900" height="1349" style="max-width:400px">
+</div>
 </div>
 </div>
 </section>
 
-<section class="white">
-<div style="max-width:760px;margin:0 auto;padding:72px 24px;display:flex;flex-direction:column;gap:20px">
+<!-- 數字 -->
+<section class="wrap" style="padding-top:56px">
+<div class="stats">
+<div class="stat"><b>近 30 年</b><span>麻醉臨床經驗</span></div>
+<div class="stat"><b>20+ 年</b><span>和信治癌中心醫院<br>麻醉科主治醫師</span></div>
+<div class="stat"><b>13 篇</b><span>國內外期刊與專業刊物發表</span></div>
+<div class="stat"><b>16 場</b><span>國內外學術會議論文發表</span></div>
+</div>
+</section>
+
+<!-- 簡介 -->
+<section>
+<div style="max-width:760px;margin:0 auto;padding:64px 24px 72px;display:flex;flex-direction:column;gap:20px">
 <p class="body" style="font-size:18px">擁有近三十年經驗的麻醉專科醫師，長年服務於癌症治療醫院與醫美手術中心。</p>
 <p class="body" style="font-size:18px">深知麻醉不只是「讓病人睡著」，更是「讓病人安全醒來」的關鍵。</p>
 <p class="body" style="font-size:18px">無論是大型整形手術、精細微創處置，還是高風險族群的術前評估與麻醉計畫擬定，以最高標準與細膩態度，確保每一次的麻醉都是安心、專業、值得信賴的體驗。</p>
@@ -126,10 +173,12 @@ footer{background:#111;color:#fff}
 </div>
 </section>
 
-<section id="about" class="wrap" style="padding-top:88px;padding-bottom:40px">
+<!-- 關於黎醫師 -->
+<section id="about" class="white">
+<div class="wrap" style="padding-top:88px;padding-bottom:64px">
 <p class="eyebrow">ABOUT</p>
 <h2 style="margin:0;font-size:clamp(40px,6vw,76px);line-height:1.15;font-weight:900;letter-spacing:.02em">麻醉專科醫師</h2>
-<p style="margin:4px 0 40px;font-size:clamp(32px,4.4vw,56px);line-height:1.2;font-weight:900">黎乃良 醫師</p>
+<p style="margin:4px 0 40px;font-size:clamp(32px,4.4vw,56px);line-height:1.2;font-weight:900">黎乃良 醫師 <span style="font-size:.4em;font-weight:500;color:#55575C;letter-spacing:.04em">Nai-Liang Li, M.D.</span></p>
 <div class="row" style="align-items:flex-start">
 <div class="main">
 <p class="body">接受台大醫院麻醉專科完整訓練後，我在癌症醫院深耕臨床二十餘年，歷經無數高風險與複雜手術，長期投入癌症病人的麻醉與術後疼痛照護。</p>
@@ -138,50 +187,71 @@ footer{background:#111;color:#fff}
 <p class="serif" style="margin:0;font-size:20px;line-height:1.8;font-weight:500;color:#1F3A5F">麻醉的價值，不在於「讓人睡著」，而在於能否平穩甦醒——而這份穩定，往往來自最安靜的守護。</p>
 </div>
 <div class="side" style="display:flex;flex-direction:column;gap:12px">
-<img src="img/headshot.jpg" alt="黎乃良醫師大頭照" width="576" height="760" style="max-width:380px">
-<p style="margin:0;font-size:14px;line-height:1.6;color:#55575C">麻專醫字第000580號，醫字第02[待補]號</p>
+<img src="img/headshot.jpg" alt="黎乃良醫師大頭照" width="800" height="800" style="max-width:380px">
+<p style="margin:0;font-size:14px;line-height:1.6;color:#55575C">醫字第024710號　麻專醫字第000580號</p>
+</div>
 </div>
 </div>
 </section>
 
-<section class="wrap" style="padding-top:24px;padding-bottom:88px">
+<!-- 專長 -->
+<section id="expertise" class="white" style="border-top:0">
+<div class="wrap" style="padding-top:24px;padding-bottom:88px">
+<p class="eyebrow">EXPERTISE</p>
+<h2 class="sec">專長領域</h2>
+<p class="lead">從大型癌症手術到診所醫美處置，依手術類型與病人狀況擬定合適的麻醉與止痛計畫。</p>
+<div class="skills">
+<div class="skill"><h3>全身麻醉</h3><p>各類手術的全身麻醉規劃與術中監測，涵蓋高風險與複雜手術。</p></div>
+<div class="skill"><h3>區域麻醉</h3><p>超音波導引神經阻斷，包含脊側神經阻斷（PVB）、胸壁與腹橫肌平面阻斷。</p></div>
+<div class="skill"><h3>術後止痛</h3><p>多模式止痛策略，減少術後疼痛與不適，幫助病人平穩恢復。</p></div>
+<div class="skill"><h3>疼痛管理</h3><p>急性疼痛處置，以及術前評估與麻醉風險說明。</p></div>
+</div>
+<p style="margin:32px 0 0;font-size:16px;line-height:1.8;color:#33353a"><b>臨床研究方向：</b>急性疼痛管理，乳癌、大腸癌手術及微創食道切除術的術後結果研究。</p>
+</div>
+</section>
+
+<!-- 經歷時間軸 -->
+<section class="wrap" style="padding-top:88px;padding-bottom:40px">
+<p class="eyebrow">CAREER</p>
+<h2 class="sec" style="margin-bottom:40px">經歷</h2>
+<ol class="timeline">
+<li class="now"><div class="yr">2020 – 迄今</div><div class="role">雅丰時尚診所　專任麻醉主治醫師</div></li>
+<li class="now"><div class="yr">2017 – 迄今</div><div class="role">國立台灣大學附設醫院　麻醉科兼任主治醫師</div></li>
+<li><div class="yr">2019 – 2021</div><div class="role">國立政治大學 經營管理碩士（EMBA）<br>和信治癌中心醫院 醫療領導力培育中心學程</div></li>
+<li><div class="yr">2010</div><div class="role">美國杜克大學醫院（Duke University Hospital）臨床進修</div></li>
+<li><div class="yr">1998 – 2020</div><div class="role">和信治癌中心醫院　麻醉科資深主治醫師</div></li>
+<li><div class="yr">1994 – 1998</div><div class="role">國立台灣大學附設醫院　麻醉科住院醫師</div></li>
+<li style="padding-bottom:0"><div class="yr">1987 – 1994</div><div class="role">國立台灣大學 醫學系</div></li>
+</ol>
+</section>
+
+<!-- 學經歷細項 -->
+<section class="wrap" style="padding-top:40px;padding-bottom:88px">
 <div style="border-top:1px solid #141414">
-<details open>
-<summary>學經歷</summary>
-<ul>
-<li>國立台灣大學 醫學系</li>
-<li>國立政治大學 經營管理碩士</li>
-<li>醫療領導力培育中心</li>
-<li>國立台灣大學附設醫院 麻醉科住院醫師</li>
-<li>國立台灣大學附設醫院 麻醉兼科任主治醫師</li>
-<li>杜克大學臨床進修</li>
-<li>和信治癌中心醫院 麻醉科資深主治醫師</li>
-<li>中華民國醫師公會 健康傳播委員會委員</li>
-</ul>
-</details>
 <details>
 <summary>專業認證</summary>
 <ul>
-<li>台灣醫師執照</li>
-<li>台灣麻醉專科醫師執照</li>
+<li>1994　中華民國醫師證書（醫字第024710號）</li>
+<li>1998　麻醉科專科醫師證書（麻專醫字第000580號）</li>
+<li>1996　中國醫藥大學 針灸訓練結業</li>
 </ul>
 </details>
 <details>
-<summary>國內外專科會員</summary>
+<summary>學會與委員</summary>
 <ul>
-<li>新北市醫師公會會員</li>
-<li>中華民國醫師公會委員</li>
-<li>台灣麻醉醫學會會員</li>
-<li>台灣疼痛醫學會會員</li>
+<li>中華民國醫師公會全國聯合會 第十三屆健康傳播委員會委員</li>
 <li>台灣區域麻醉暨止痛醫學會 監事</li>
-<li>國際麻醉研究協會會員</li>
-<li>美國麻醉醫學會會員</li>
+<li>台灣麻醉醫學會 會員（1998 起）</li>
+<li>台灣疼痛醫學會 會員（2013 起）</li>
+<li>美國麻醉醫學會（ASA）會員（2010 起）</li>
+<li>國際麻醉研究協會（IARS）會員</li>
+<li>新北市醫師公會 會員</li>
 <li>中華生技醫藥行業協會 顧問</li>
 </ul>
 </details>
 <details>
-<summary>論文刊登</summary>
-<ul>
+<summary>論文刊登<small>13 篇</small></summary>
+<ol>
 <li>Comparison of hemodynamics and recovery of sevoflurane and isoflurane anesthesia in Chinese adult patients. Chen TL, Yang SF, Chang HC, Tai YT, Li NL, Lin CJ. Acta Anaesthesiol Sin. 1998 Mar;36(1):31-6.</li>
 <li>A simple, innovative way to reduce rhinitis symptoms after sedation during endoscopy. Li NL, Tseng SC, Hsu CC, Lai WJ, Su HC, Cheng TI, Chen WC, Peng WL. Can J Gastroenterol. 2011 Feb;25(2):68-72.</li>
 <li>The effect on improvement of recovery and pain scores of paravertebral block immediately before breast surgery. Li NL, Yu BL, Tseng SC, Hsu CC, Lai WJ, Hsieh PF, Peng WL, Chen CM. Acta Anaesthesiol Taiwan. 2011 Sep;49(3):91-5.</li>
@@ -195,54 +265,107 @@ footer{background:#111;color:#fff}
 <li>Comparison of the Short-term Postoperative Results of Prone Positioning and Lateral Decubitus Positioning during Thoracoscopic Esophagectomy. Li NL, Peng WL, Liu CC, Shih CH. Wideochir Inne Tech Maloinwazyjne. 2015 Apr;10(1):37-43.</li>
 <li>Paravertebral Block Plus Thoracic Wall Block Versus Paravertebral Block Alone for Analgesia of Modified Radical Mastectomy: A Retrospective Cohort Study. Li NL, Yu BL, Hung CF. PLoS One. 2016 Nov 9;11(11):e0166227.</li>
 <li>Intraoperative Cardiac Arrest Caused by Air Embolism during Video-Assisted Thoracoscopic Segmentectomy. Li NL, Lin CS, Shih CH, Liu CC. J Thorac Cardiovasc Surg. 2018 Mar;155(3):e111-3.</li>
-</ul>
+</ol>
+</details>
+<details>
+<summary>學術會議發表<small>16 場</small></summary>
+<ol>
+<li>A simple, innovative way to reduce rhinitis symptoms after sedation during endoscopy. TSA Annual Meeting 2010</li>
+<li>The Effect on Improved Recovery and Pain Scores Using Paravertebral Block before Breast Surgery. TSA Annual Meeting 2011</li>
+<li>Pleural Puncture of an Epidural Catheter in a Video-Assisted Thoracoscopic Surgery – a Case Report. TSA Annual Meeting 2011</li>
+<li>The Early Clinical Effectiveness of Combined Paravertebral Block and Subcostal Transversus Abdominis Plane Block in Minimally Invasive Esophagectomy. TSA Annual Meeting 2012</li>
+<li>The application of Paravertebral Block in Breast Surgery – an Institutional Experience. TSA Annual Meeting 2013</li>
+<li>The Ultrasound-Guided Paravertebral Block Usage in an Obese Patient Undergoing Breast Surgery. TSA Annual Meeting 2013</li>
+<li>Persistent Pain Following Breast Cancer Surgery: Profile of Taiwan Women. TPS Annual Meeting 2013</li>
+<li>The Ultrasound-Guided Paravertebral Block Usage in an Obese Patient Undergoing Breast Surgery. NYSORA Asia 2014, Malaysia</li>
+<li>Comparison of Different Anesthetic Modalities in Postoperative Pain, Complications and Satisfaction for Breast Cancer Surgery. NYSORA Asia 2014, Malaysia</li>
+<li>Regional Anesthesia for a myasthenic patient undergoing breast cancer surgery. 2014 亞洲疼痛醫學會（AAFPS）</li>
+<li>Anesthetic Modalities on Postoperative Pain, Complications and Satisfaction for Breast Cancer Surgery. 2014 亞洲疼痛醫學會（AAFPS）</li>
+<li>A Randomized Controlled Study Comparing Three Anesthetic Modalities in Satisfaction for Breast Cancer Surgery. TAS Annual Meeting 2014</li>
+<li>Feasibility of Thoraco-laparoscopic Esophagectomy in Prone Position. TAS Annual Meeting 2014</li>
+<li>Comparisons of Paravertebral Block Combined with Thoracic Wall Block versus Paravertebral Block alone for Analgesia of Modified Radical Mastectomy. WCA 世界麻醉會議 2016</li>
+<li>Paravertebral Block Combined with Blocks Targeting Pectoral Girdle as a Sole Anesthetic Technique for Breast Cancer Surgery in a Heart Failure Patient. TSA Annual Meeting 2016</li>
+<li>Comparisons of Paravertebral Block Combined with Thoracic Wall Block versus Paravertebral Block alone for Analgesia of Modified Radical Mastectomy. TSA Annual Meeting 2016</li>
+</ol>
 </details>
 </div>
 </section>
 
-<section id="notes" class="white">
+<!-- 臨床現場 -->
+<section class="white">
 <div class="wrap" style="padding-top:88px;padding-bottom:88px">
-<p class="eyebrow">COLUMN</p>
-<h2 style="margin:0 0 12px;font-size:40px;font-weight:900">專欄分享</h2>
-<p style="margin:0 0 40px;font-size:17px;line-height:1.7;color:#45474c">黎醫師的健康筆記：從麻醉台邊，寫給即將手術的你。</p>
-<div class="grid">
-<a class="note" href="#notes"><span class="tag">黎醫師的健康筆記 #4</span><span class="t">僵直性脊椎炎：手術麻醉，我們這樣為您安心把關</span><span class="more">閱讀全文</span></a>
-<a class="note" href="#notes"><span class="tag">黎醫師的健康筆記 #3</span><span class="t">手術中覺醒：風險與防範</span><span class="more">閱讀全文</span></a>
-<a class="note" href="#notes"><span class="tag">黎醫師的健康筆記 #2</span><span class="t">打了瘦瘦針，手術前該知道的事</span><span class="more">閱讀全文</span></a>
-<a class="note" href="#notes"><span class="tag">黎醫師的健康筆記 #1</span><span class="t">麻醉科醫師的真心話：健美運動員上麻醉台，我們在擔心什麼？</span><span class="more">閱讀全文</span></a>
+<p class="eyebrow">IN PRACTICE</p>
+<h2 class="sec">在手術室裡</h2>
+<p class="lead">手術進行時，麻醉醫師是病人身邊始終在場的那一位。</p>
+<div class="photos">
+<figure><img src="img/or-cap.jpg" alt="黎醫師戴著手術帽與口罩在手術室" width="800" height="1067" loading="lazy"><figcaption>手術室日常</figcaption></figure>
+<figure><img src="img/clinic-desk.jpg" alt="黎醫師在手術室旁記錄病歷" width="800" height="985" loading="lazy"><figcaption>術前評估與麻醉紀錄</figcaption></figure>
+<figure><img src="img/award.jpg" alt="黎醫師身穿刷手服手持證書在手術室" width="800" height="1067" loading="lazy"><figcaption>與團隊一起守護每台手術</figcaption></figure>
 </div>
 </div>
 </section>
 
-<section id="contact" class="wrap" style="padding-top:88px;padding-bottom:88px">
-<p class="eyebrow" style="text-align:center">CONTACT</p>
-<h2 style="margin:0 0 12px;font-size:40px;font-weight:900;text-align:center">預約洽詢</h2>
-<p style="margin:0 auto 48px;font-size:17px;line-height:1.7;color:#45474c;text-align:center;max-width:560px">為了提供更精準的服務，請依您的需求選擇下方對應表單。</p>
-<div class="forms">
-<div class="card" style="background:#141414;color:#fff">
-<svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M10 21v-5h4v5"/></svg>
-<h3>合作表單</h3>
-<p style="color:#E4E4E4">若您是診所／手術中心，希望洽談合作、麻醉支援或長期配合，歡迎填寫合作表單。</p>
-<!-- TODO：換成合作用 Google 表單連結 -->
-<a class="btn" href="#contact" style="background:#fff;color:#141414">填寫合作表單</a>
+<!-- 專欄分享 -->
+<section id="notes">
+<div class="wrap" style="padding-top:88px;padding-bottom:88px">
+<p class="eyebrow">COLUMN</p>
+<h2 class="sec">專欄分享</h2>
+<p class="lead">黎醫師的健康筆記：從麻醉台邊，寫給即將手術的你。</p>
+<div class="grid">
+<a class="note" href="#notes" style="background:#fff"><span class="tag">黎醫師的健康筆記 #4</span><span class="t">僵直性脊椎炎：手術麻醉，我們這樣為您安心把關</span><span class="more">閱讀全文</span></a>
+<a class="note" href="#notes" style="background:#fff"><span class="tag">黎醫師的健康筆記 #3</span><span class="t">手術中覺醒：風險與防範</span><span class="more">閱讀全文</span></a>
+<a class="note" href="#notes" style="background:#fff"><span class="tag">黎醫師的健康筆記 #2</span><span class="t">打了瘦瘦針，手術前該知道的事</span><span class="more">閱讀全文</span></a>
+<a class="note" href="#notes" style="background:#fff"><span class="tag">黎醫師的健康筆記 #1</span><span class="t">麻醉科醫師的真心話：健美運動員上麻醉台，我們在擔心什麼？</span><span class="more">閱讀全文</span></a>
 </div>
-<div class="card" style="background:#fff;border:1px solid #141414">
-<svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#141414" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
+</div>
+</section>
+
+<!-- 預約洽詢 -->
+<section id="contact" class="white">
+<div class="wrap" style="padding-top:88px;padding-bottom:88px">
+<p class="eyebrow" style="text-align:center">CONTACT</p>
+<h2 class="sec" style="text-align:center">預約洽詢</h2>
+<p class="lead" style="margin-left:auto;margin-right:auto;text-align:center;max-width:560px">為了提供更精準的服務，請依您的需求選擇下方對應表單。</p>
+<div class="forms">
+<div class="card">
+<img src="img/surgery.jpg" alt="手術室中進行手術的醫療團隊" width="800" height="1200" loading="lazy">
+<div class="in">
+<h3>合作表單</h3>
+<p>若您是診所／手術中心，希望洽談合作、麻醉支援或長期配合，歡迎填寫合作表單。</p>
+<!-- TODO：換成合作用 Google 表單連結 -->
+<a class="btn dark" href="#contact">填寫合作表單</a>
+</div>
+</div>
+<div class="card">
+<img src="img/consult.jpg" alt="病人透過視訊與醫師諮詢" width="800" height="1200" loading="lazy">
+<div class="in">
 <h3>個人表單</h3>
-<p style="color:#33353a">若您即將進行醫美手術，對麻醉有任何疑問，或希望安排術前評估，歡迎填寫個人表單。</p>
+<p>若您即將進行醫美手術，對麻醉有任何疑問，或希望安排術前評估，歡迎填寫個人表單。</p>
 <!-- TODO：換成病人諮詢用 Google 表單連結 -->
-<a class="btn dark" href="#contact">填寫個人表單</a>
+<a class="btn line" href="#contact">填寫個人表單</a>
+</div>
+</div>
 </div>
 </div>
 </section>
 </main>
 
-<footer>
-<div class="wrap" style="padding-top:72px;padding-bottom:40px;display:flex;flex-direction:column;gap:28px">
+<!-- 金句 -->
+<section class="quote">
+<div class="row">
+<div class="ph"><img src="img/bw.jpg" alt="黎乃良醫師黑白肖像" width="1200" height="900" loading="lazy"></div>
+<div class="tx">
+<img src="img/logo-light.png" alt="" width="64" height="73" style="width:64px">
 <p style="margin:0;font-size:28px;font-weight:700;letter-spacing:.06em">黎醫師麻醉</p>
-<p class="serif" style="margin:0;font-size:22px;line-height:1.7;color:#EDEDED">「麻醉，不只是技術，更是醫者的直覺與責任」</p>
+<p class="serif" style="margin:0;font-size:24px;line-height:1.7;color:#EDEDED">「麻醉，不只是技術，<br>更是醫者的直覺與責任」</p>
 <div><a class="btn" href="#contact" style="border:1px solid #fff;color:#fff">聯繫醫師</a></div>
-<p style="margin:24px 0 0;padding-top:24px;border-top:1px solid #333;font-size:13px;line-height:1.7;color:#B5B5B5">© 黎乃良醫師　本網站內容為衛教與執業資訊，不取代個別醫療診斷，實際麻醉方式請依術前評估結果決定。</p>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="wrap" style="padding-top:28px;padding-bottom:36px">
+<p style="margin:0;font-size:13px;line-height:1.7">© 黎乃良醫師　本網站內容為衛教與執業資訊，不取代個別醫療診斷，實際麻醉方式請依術前評估結果決定。</p>
 </div>
 </footer>
 

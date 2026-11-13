@@ -100,6 +100,26 @@ details li{font-size:16px;line-height:1.7;color:#26282c}
 .card h3{margin:0;font-size:26px}
 .card p{margin:0;font-size:17px;line-height:1.8;color:#33353a;flex-grow:1}
 .card .btn{min-height:52px;font-weight:700}
+.cform{max-width:760px;margin:0 auto;border:1px solid #141414;background:#fff}
+.ctabs{display:flex;flex-wrap:wrap;border-bottom:1px solid #141414}
+.ctabs label{flex:1 1 220px;display:flex;align-items:center;justify-content:center;gap:8px;min-height:56px;font-size:17px;font-weight:700;cursor:pointer;color:#55575C}
+.ctabs label:has(input:checked){background:#141414;color:#fff}
+.ctabs input{accent-color:#fff}
+#contactForm{padding:32px 28px;display:flex;flex-direction:column;gap:18px}
+.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+#contactForm label{display:flex;flex-direction:column;gap:6px;font-size:15px;font-weight:500;color:#26282c}
+#contactForm input[type=text],#contactForm input[type=email],#contactForm input[type=tel],#contactForm textarea{font:inherit;font-size:16px;padding:12px;border:1px solid #B9B6AE;background:#F7F6F3;color:#141414}
+#contactForm input:focus,#contactForm textarea:focus{outline:2px solid #1F3A5F;outline-offset:1px;background:#fff}
+.req{font-size:12px;color:#8a2a1a;font-weight:400}
+.hint{margin:0;font-size:14px;line-height:1.7;color:#55575C}
+#contactForm label.consent{flex-direction:row;align-items:flex-start;gap:10px;font-weight:400;line-height:1.6}
+.consent input{margin-top:5px;width:18px;height:18px;flex:none}
+#contactForm .btn{align-self:flex-start;min-width:160px;border:0;cursor:pointer;font-weight:700}
+#contactForm .btn[disabled]{opacity:.5;cursor:default}
+#formStatus{margin:0;font-size:16px;line-height:1.7}
+#formStatus.ok{color:#1d5c34;font-weight:700}#formStatus.err{color:#8a2a1a}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.cform.personal .c-only,.cform:not(.personal) .p-only{display:none}
 .quote{background:#0B0B0B;color:#fff}
 .quote .row{align-items:center;gap:0}
 .quote .ph{flex:1 1 420px;min-width:0}
@@ -165,7 +185,7 @@ footer{background:#0B0B0B;color:#B5B5B5;border-top:1px solid #2a2a2a}
    "name": "診所要如何與黎醫師合作麻醉支援？",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "請填寫下方的「合作表單」，告訴我們診所位置、手術類型、需要的時段與頻率，我們會再與您聯繫，討論麻醉方式、設備需求與合作細節。"
+    "text": "請在下方「預約洽詢」選擇「診所／手術中心合作」，告訴我們診所位置、手術類型、需要的時段與頻率，我們會再與您聯繫，討論麻醉方式、設備需求與合作細節。"
    }
   }
  ]
@@ -388,7 +408,7 @@ footer{background:#0B0B0B;color:#B5B5B5;border-top:1px solid #2a2a2a}
 <details><summary>麻醉風險等級（ASA 分級）是什麼？</summary><p style="margin:0;padding:0 4px 28px;font-size:17px;line-height:1.9;color:#26282c">ASA 分級是美國麻醉醫學會訂定的術前身體狀況分級，從第 1 級（健康）到第 6 級，數字越高代表全身狀況越複雜、麻醉風險越高。它幫助麻醉團隊決定術前要做哪些檢查、手術中要多做哪些準備。</p></details>
 <details><summary>醫美手術的麻醉，要怎麼確保安全？</summary><p style="margin:0;padding:0 4px 28px;font-size:17px;line-height:1.9;color:#26282c">關鍵在三件事：手術前完整評估病史與用藥（包括瘦瘦針、保健品與健身用藥），手術中由麻醉專科醫師全程監測，以及手術場所備有急救設備與應變流程。選擇醫美手術時，可以主動詢問是由誰負責麻醉、麻醉期間由誰監測。</p><p style="margin:-16px 0 0;padding:0 4px 28px;font-size:16px"><a href="notes/sedation-vs-general/">延伸閱讀：舒眠麻醉的風險從哪裡來 →</a></p></details>
 <details><summary>老人家全身麻醉風險比較高嗎？</summary><p style="margin:0;padding:0 4px 28px;font-size:17px;line-height:1.9;color:#26282c">年齡本身不是不能麻醉的理由，但高齡者常合併心肺、腎臟疾病或多重用藥，術後也比較容易出現譫妄等狀況。術前評估時把慢性病、用藥與平常的認知與活動狀況說清楚，麻醉醫師就能擬定更合適的麻醉方式。</p></details>
-<details><summary>診所要如何與黎醫師合作麻醉支援？</summary><p style="margin:0;padding:0 4px 28px;font-size:17px;line-height:1.9;color:#26282c">請填寫下方的「合作表單」，告訴我們診所位置、手術類型、需要的時段與頻率，我們會再與您聯繫，討論麻醉方式、設備需求與合作細節。</p></details>
+<details><summary>診所要如何與黎醫師合作麻醉支援？</summary><p style="margin:0;padding:0 4px 28px;font-size:17px;line-height:1.9;color:#26282c">請在下方「預約洽詢」選擇「診所／手術中心合作」，告訴我們診所位置、手術類型、需要的時段與頻率，我們會再與您聯繫，討論麻醉方式、設備需求與合作細節。</p></details>
 </div>
 </div>
 </section>
@@ -416,25 +436,31 @@ footer{background:#0B0B0B;color:#B5B5B5;border-top:1px solid #2a2a2a}
 <div class="wrap" style="padding-top:88px;padding-bottom:88px">
 <p class="eyebrow" style="text-align:center">CONTACT</p>
 <h2 class="sec" style="text-align:center">預約洽詢</h2>
-<p class="lead" style="margin-left:auto;margin-right:auto;text-align:center;max-width:560px">為了提供更精準的服務，請依您的需求選擇下方對應表單。</p>
-<div class="forms">
-<div class="card">
-<img src="img/surgery.jpg" alt="手術室中進行手術的醫療團隊" width="800" height="1200" loading="lazy">
-<div class="in">
-<h3>合作表單</h3>
-<p>若您是診所／手術中心，希望洽談合作、麻醉支援或長期配合，歡迎填寫合作表單。</p>
-<!-- TODO：換成合作用 Google 表單連結 -->
-<a class="btn dark" href="#contact">填寫合作表單</a>
+<p class="lead" style="margin-left:auto;margin-right:auto;text-align:center;max-width:560px">請選擇洽詢類型並留下聯絡方式，黎醫師會在 3 個工作天內以 Email 回覆。</p>
+<div class="cform">
+<div class="ctabs" role="radiogroup" aria-label="洽詢類型">
+<label><input type="radio" name="kind" value="clinic" checked> 診所／手術中心合作</label>
+<label><input type="radio" name="kind" value="personal"> 手術病人個人諮詢</label>
 </div>
+<form id="contactForm" novalidate>
+<input type="hidden" name="type" value="clinic">
+<div class="hp" aria-hidden="true"><label>網站<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+<div class="fgrid">
+<label>姓名 <span class="req">必填</span><input type="text" name="name" required autocomplete="name"></label>
+<label>Email <span class="req">必填</span><input type="email" name="email" required autocomplete="email"></label>
+<label>電話<input type="tel" name="phone" autocomplete="tel"></label>
+<label class="c-only">診所／單位名稱<input type="text" name="org"></label>
+<label class="c-only">地點（縣市）<input type="text" name="location"></label>
+<label><span class="c-only">手術或處置類型</span><span class="p-only">預計進行的手術</span><input type="text" name="procedure"></label>
+<label class="c-only">希望的時段與頻率<input type="text" name="schedule" placeholder="例：每週二、四上午"></label>
+<label class="p-only">預計手術日期<input type="text" name="date" placeholder="例：12 月中旬"></label>
 </div>
-<div class="card">
-<img src="img/consult.jpg" alt="病人透過視訊與醫師諮詢" width="800" height="1200" loading="lazy">
-<div class="in">
-<h3>個人表單</h3>
-<p>若您即將進行醫美手術，對麻醉有任何疑問，或希望安排術前評估，歡迎填寫個人表單。</p>
-<!-- TODO：換成病人諮詢用 Google 表單連結 -->
-<a class="btn line" href="#contact">填寫個人表單</a>
-</div>
+<label class="full"><span class="c-only">合作需求說明</span><span class="p-only">想詢問的內容</span><textarea name="message" rows="5"></textarea></label>
+<p class="p-only hint">請勿在表單填寫完整病歷或檢查報告，詳細狀況待聯繫後再討論。網站諮詢僅提供一般衛教說明與預約安排，不能取代實際的術前評估與診療。</p>
+<label class="consent"><input type="checkbox" name="consent" value="yes" required> 我同意黎乃良醫師蒐集上述資料，僅用於回覆本次洽詢與安排聯繫。</label>
+<button type="submit" class="btn dark">送出</button>
+<p id="formStatus" role="status" aria-live="polite"></p>
+</form>
 </div>
 </div>
 </div>
@@ -460,5 +486,27 @@ footer{background:#0B0B0B;color:#B5B5B5;border-top:1px solid #2a2a2a}
 </div>
 </footer>
 
+<script>
+(function(){
+  // 黎醫師完成 Apps Script 部署後，把「網頁應用程式」網址貼在這裡
+  var SCRIPT_URL = '';
+  var box=document.querySelector('.cform'), f=document.getElementById('contactForm'), el=f.elements, st=document.getElementById('formStatus'), btn=f.querySelector('button');
+  document.querySelectorAll('.ctabs input').forEach(function(r){r.addEventListener('change',function(){
+    box.classList.toggle('personal', r.value==='personal' && r.checked); el['type'].value=document.querySelector('.ctabs input:checked').value;});});
+  if(!SCRIPT_URL){btn.disabled=true; st.textContent='線上表單設定中，即將開放。'; return;}
+  f.addEventListener('submit',function(e){
+    e.preventDefault(); st.className='';
+    if(!el['name'].value.trim()||!el['email'].value.trim()){st.className='err';st.textContent='請填寫姓名與 Email。';return;}
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(el['email'].value.trim())){st.className='err';st.textContent='Email 格式好像不太對，請再確認一次。';return;}
+    if(!el['consent'].checked){st.className='err';st.textContent='請勾選同意蒐集資料，才能送出。';return;}
+    btn.disabled=true; st.textContent='送出中…';
+    fetch(SCRIPT_URL,{method:'POST',body:new URLSearchParams(new FormData(f))})
+      .then(function(r){return r.json();})
+      .then(function(d){ if(!d.ok) throw new Error(d.error);
+        st.className='ok'; st.textContent='已收到，謝謝您！確認信已寄到您的信箱，黎醫師會在 3 個工作天內回覆。'; f.reset(); box.classList.remove('personal'); btn.disabled=false;})
+      .catch(function(){ st.className='err'; st.textContent='送出時發生問題，請稍後再試一次。'; btn.disabled=false;});
+  });
+})();
+</script>
 </body>
 </html>

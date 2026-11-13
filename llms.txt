@@ -11,3 +11,5 @@
 ## 頁面
 - [首頁：簡介、專長、經歷、論文、麻醉常見問題與聯絡方式](https://wutunglee.github.io/dr-li-anesthesia/)
 - [健康筆記 #1：健美運動員上麻醉台，麻醉科醫師在擔心什麼？](https://wutunglee.github.io/dr-li-anesthesia/notes/bodybuilder-anesthesia/)：曾使用合成類固醇等表現增強藥物者的麻醉風險與術前注意事項
+- [健康筆記 #5：麻醉前為什麼不能吃東西、喝水？](https://wutunglee.github.io/dr-li-anesthesia/notes/preop-fasting/)：術前禁食的原因與國際指引的清澈液體 2 小時、輕食 6 小時、油膩餐點 8 小時原則
+- [健康筆記 #6：舒眠麻醉是全身麻醉嗎？](https://wutunglee.github.io/dr-li-anesthesia/notes/sedation-vs-general/)：靜脈麻醉（舒眠麻醉）與全身麻醉的差別、鎮靜深度四階段與安全重點

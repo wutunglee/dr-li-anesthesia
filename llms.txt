@@ -13,3 +13,6 @@
 - [健康筆記 #1：健美運動員上麻醉台，麻醉科醫師在擔心什麼？](https://wutunglee.github.io/dr-li-anesthesia/notes/bodybuilder-anesthesia/)：曾使用合成類固醇等表現增強藥物者的麻醉風險與術前注意事項
 - [健康筆記 #5：麻醉前為什麼不能吃東西、喝水？](https://wutunglee.github.io/dr-li-anesthesia/notes/preop-fasting/)：術前禁食的原因與國際指引的清澈液體 2 小時、輕食 6 小時、油膩餐點 8 小時原則
 - [健康筆記 #6：舒眠麻醉是全身麻醉嗎？](https://wutunglee.github.io/dr-li-anesthesia/notes/sedation-vs-general/)：靜脈麻醉（舒眠麻醉）與全身麻醉的差別、鎮靜深度四階段與安全重點
+- [健康筆記 #7：靜脈舒眠的精準給藥節奏](https://wutunglee.github.io/dr-li-anesthesia/notes/sedation-titration/)：依手術疼痛節奏動態調整給藥、縫合前減量，以及減少術後噁心嘔吐（PONV）的多模式策略
+- [健康筆記 #8：診所不插管麻醉的安全防線](https://wutunglee.github.io/dr-li-anesthesia/notes/clinic-airway-safety/)：上呼吸道阻塞與缺氧的早期辨識、血氧是延遲指標、托下巴等呼吸道處置
+- [健康筆記 #9：高風險族群的診所麻醉把關](https://wutunglee.github.io/dr-li-anesthesia/notes/high-risk-patients/)：瘦瘦針（GLP-1）、長期安眠藥或飲酒、使用合成類固醇的健美族群

@@ -17,3 +17,4 @@
 - [健康筆記 #8：診所不插管麻醉的安全防線](https://wutunglee.github.io/dr-li-anesthesia/notes/clinic-airway-safety/)：上呼吸道阻塞與缺氧的早期辨識、血氧是延遲指標、托下巴等呼吸道處置
 - [健康筆記 #9：高風險族群的診所麻醉把關](https://wutunglee.github.io/dr-li-anesthesia/notes/high-risk-patients/)：瘦瘦針（GLP-1）、長期安眠藥或飲酒、使用合成類固醇的健美族群
 - [健康筆記 #4：僵直性脊椎炎的手術麻醉](https://wutunglee.github.io/dr-li-anesthesia/notes/ankylosing-spondylitis/)：頸椎 C1-C2 滑脫風險、術前影像評估、清醒纖維支氣管鏡插管與超音波導引脊椎麻醉
+- [健康筆記 #3：手術中覺醒的風險與防範](https://wutunglee.github.io/dr-li-anesthesia/notes/intraoperative-awareness/)：術中覺醒的三大風險因子與術前評估、BIS 腦波監測等預防策略

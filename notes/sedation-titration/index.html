@@ -33,6 +33,32 @@
  "inLanguage": "zh-Hant-TW"
 }
 </script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "首頁",
+   "item": "https://wutunglee.github.io/dr-li-anesthesia/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "專欄分享",
+   "item": "https://wutunglee.github.io/dr-li-anesthesia/#notes"
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "name": "同樣是靜脈舒眠，為什麼有人醒來神清氣爽、有人吐到天昏地暗？談診所麻醉的精準給藥節奏",
+   "item": "https://wutunglee.github.io/dr-li-anesthesia/notes/sedation-titration/"
+  }
+ ]
+}
+</script>
 <style>
 *{box-sizing:border-box}
 body{margin:0;background:#F7F6F3;color:#141414;font-family:'Noto Sans TC',system-ui,sans-serif}
@@ -65,6 +91,13 @@ table{border-collapse:collapse;width:100%;margin:24px 0;font-size:16px}
 th,td{border:1px solid #D9D6CF;padding:10px 12px;text-align:left;vertical-align:top;line-height:1.6}
 th{background:#fff}
 .tbl{overflow-x:auto}
+.crumb{font-size:14px;color:#55575C;margin-bottom:14px}.crumb a{color:#55575C}
+.by time{font-size:13px;color:#55575C}
+.author{display:flex;gap:20px;align-items:flex-start;background:#fff;border:1px solid #D9D6CF;padding:24px;margin:48px 0 0}
+.author img{width:96px;height:96px;border-radius:50%;object-fit:cover;flex:none}
+.author p{font-size:15px;line-height:1.8;margin:0 0 8px}
+.author .an{font-size:17px;font-weight:700}
+@media(max-width:560px){.author{flex-direction:column}}
 </style>
 </head>
 <body>
@@ -76,9 +109,10 @@ th{background:#fff}
 </header>
 <main>
 <article>
+<nav aria-label="路徑" class="crumb"><a href="../../">首頁</a> › <a href="../../#notes">專欄分享</a></nav>
 <span class="tag">黎醫師的健康筆記 #7</span>
 <h1>同樣是靜脈舒眠，為什麼有人醒來神清氣爽、有人吐到天昏地暗？<br>談診所麻醉的「精準給藥節奏」</h1>
-<div class="by"><img src="../../img/headshot.jpg" alt="黎乃良醫師">撰文／黎乃良　麻醉專科醫師</div>
+<div class="by"><img src="../../img/headshot.jpg" alt="黎乃良醫師"><span>撰文／黎乃良　麻醉專科醫師<br><time datetime="2026-11-16">最後更新：2026/11/16</time></span></div>
 <p class="lede">在門診手術與醫美領域，「靜脈舒眠麻醉（TIVA）」幾乎已經成為標準配備。許多準備接受手術的民眾，甚至部分非麻醉專科的醫療人員，常有一個誤解，以為舒眠麻醉就是「把藥推進去、讓病人睡著、開完刀再叫醒」這麼簡單。然而，在臨床現場我們經常看到兩極化的結果：同樣是睡一覺，為什麼有人醒來不到十分鐘就能清醒喝水、神清氣爽地走出診所；有人卻在恢復室頭暈目眩、劇烈嘔吐好幾個小時，甚至在手術台上躁動扭動，導致主刀醫師無法順利下刀？</p>
 <p>這背後的關鍵差異，往往不在於診所買了多貴的藥，而在於麻醉專科醫師對「藥理動力學」與「手術疼痛節奏」的精準拿捏。</p>
 <h2>像手動駕駛飛機一樣的「動態滴定」給藥</h2>
@@ -89,6 +123,12 @@ th{background:#fff}
 <h2>減少術後噁心嘔吐（PONV），靠的是「多模式藥物平衡」與預防策略</h2>
 <p>術後頭暈與噁心嘔吐，是影響手術滿意度最大的殺手，也是造成診所恢復室塞車的主因。會發生劇烈嘔吐，通常是因為單一藥物給得太重、止痛與鎮靜比例失衡，或是忽略了病人本身的體質風險（例如容易暈車、年輕女性、非吸菸者等高風險因子）。</p>
 <p>資深麻醉專科醫師會在術前就評估病人的嘔吐風險，採取「多模式止痛」與「預防性止吐策略」——在手術過程中精準搭配短效鎮痛藥與鎮靜劑，減少單一藥物的副作用疊加，並在適當時機給予不同機轉的止吐藥物。這不僅是為了讓客人醒來時舒服、有尊嚴，更是為了讓診所的術後照護流程順暢、零客訴，讓每一次的手術體驗都停留在最安全、舒適的記憶點。</p>
+<aside class="author">
+<img src="../../img/headshot.jpg" alt="黎乃良醫師" width="96" height="96" loading="lazy">
+<div><p class="an">黎乃良　麻醉專科醫師</p>
+<p>台大醫學系畢業、台大醫院麻醉科專科訓練，曾任和信治癌中心醫院麻醉科資深主治醫師二十餘年，現任臺大醫院麻醉科兼任主治醫師。專長醫美與診所手術麻醉、舒眠（靜脈）麻醉、神經阻斷術與術後止痛，發表國內外期刊論文 13 篇。</p>
+<p><a href="../../#about">完整經歷 →</a>　<a href="../../#contact">預約洽詢 →</a></p></div>
+</aside>
 <p class="note">本文為衛教資訊，不能取代個別醫療診斷。實際的麻醉方式、禁食時間與用藥調整，請依您的手術單位指示與術前評估結果，與您的麻醉醫師討論決定。</p>
 <a class="back" href="../../#notes">← 回到專欄分享</a>
 </article>

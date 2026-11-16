@@ -33,6 +33,32 @@
  "inLanguage": "zh-Hant-TW"
 }
 </script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "首頁",
+   "item": "https://wutunglee.github.io/dr-li-anesthesia/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "專欄分享",
+   "item": "https://wutunglee.github.io/dr-li-anesthesia/#notes"
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "name": "手術中覺醒：風險與防範",
+   "item": "https://wutunglee.github.io/dr-li-anesthesia/notes/intraoperative-awareness/"
+  }
+ ]
+}
+</script>
 <style>
 *{box-sizing:border-box}
 body{margin:0;background:#F7F6F3;color:#141414;font-family:'Noto Sans TC',system-ui,sans-serif}
@@ -65,6 +91,13 @@ table{border-collapse:collapse;width:100%;margin:24px 0;font-size:16px}
 th,td{border:1px solid #D9D6CF;padding:10px 12px;text-align:left;vertical-align:top;line-height:1.6}
 th{background:#fff}
 .tbl{overflow-x:auto}
+.crumb{font-size:14px;color:#55575C;margin-bottom:14px}.crumb a{color:#55575C}
+.by time{font-size:13px;color:#55575C}
+.author{display:flex;gap:20px;align-items:flex-start;background:#fff;border:1px solid #D9D6CF;padding:24px;margin:48px 0 0}
+.author img{width:96px;height:96px;border-radius:50%;object-fit:cover;flex:none}
+.author p{font-size:15px;line-height:1.8;margin:0 0 8px}
+.author .an{font-size:17px;font-weight:700}
+@media(max-width:560px){.author{flex-direction:column}}
 </style>
 </head>
 <body>
@@ -76,9 +109,10 @@ th{background:#fff}
 </header>
 <main>
 <article>
+<nav aria-label="路徑" class="crumb"><a href="../../">首頁</a> › <a href="../../#notes">專欄分享</a></nav>
 <span class="tag">黎醫師的健康筆記 #3</span>
 <h1>手術中覺醒：<br>風險與防範</h1>
-<div class="by"><img src="../../img/headshot.jpg" alt="黎乃良醫師">撰文／黎乃良　麻醉專科醫師</div>
+<div class="by"><img src="../../img/headshot.jpg" alt="黎乃良醫師"><span>撰文／黎乃良　麻醉專科醫師<br><time datetime="2026-11-16">最後更新：2026/11/16</time></span></div>
 <p class="lede">手術台上，麻醉醫師不只是讓你「睡著」的那位專業人員，更是全手術過程安全的守門人。術中覺醒（Intraoperative Awareness, IOA）雖然在現代麻醉技術下已屬少見，但一旦發生，其對身心的創傷不可小覷。</p>
 <p>本文將從麻醉醫師的角度，解析術中覺醒的主要風險因子、預防策略，以及為何麻醉專業在每一台手術中都不可或缺。</p>
 <h2>認識術中覺醒</h2>
@@ -106,6 +140,12 @@ th{background:#fff}
 <div class="box"><h3>給大眾的提醒</h3><p style="margin:0">術中覺醒「可怕但可防」，關鍵在於選擇具備經驗與專業認證的麻醉團隊。在術前主動與麻醉醫師溝通，了解可能風險，也更能安心信任手術全程有人為您把關。</p></div>
 <h2 style="font-size:18px">參考資料</h2>
 <ol class="refs"><li>van der Vyver M, Orser B. What is Anesthesia Awareness? Canadian Anesthesiologists' Society.</li><li>Intraoperative and Anesthesia Awareness. <i>StatPearls</i>. NCBI Bookshelf.</li><li>Miranda MC, et al. Risk Factors for Intraoperative Awareness. <i>Revista Brasileira de Anestesiologia</i>, 62(3), 365–376.</li><li>Mashour GA, et al. A protocol based on BIS monitoring reduced the incidence of definite or possible intraoperative awareness compared with routine care. <i>Anesthesiology</i>. 2012;117(4):717–725.</li><li>Preventive strategies for reducing intraoperative awareness due to anesthetic drug delivery system errors. <i>Frontiers in Pharmacology</i>. 2025.</li><li>American Society of Anesthesiologists. Practice Advisory for Intraoperative Awareness and Brain Function Monitoring.</li><li>Cleveland Clinic. Anesthesia Awareness (Waking Up During Surgery).</li></ol>
+<aside class="author">
+<img src="../../img/headshot.jpg" alt="黎乃良醫師" width="96" height="96" loading="lazy">
+<div><p class="an">黎乃良　麻醉專科醫師</p>
+<p>台大醫學系畢業、台大醫院麻醉科專科訓練，曾任和信治癌中心醫院麻醉科資深主治醫師二十餘年，現任臺大醫院麻醉科兼任主治醫師。專長醫美與診所手術麻醉、舒眠（靜脈）麻醉、神經阻斷術與術後止痛，發表國內外期刊論文 13 篇。</p>
+<p><a href="../../#about">完整經歷 →</a>　<a href="../../#contact">預約洽詢 →</a></p></div>
+</aside>
 <p class="note">本文為衛教資訊，不能取代個別醫療診斷。實際的麻醉方式、禁食時間與用藥調整，請依您的手術單位指示與術前評估結果，與您的麻醉醫師討論決定。</p>
 <a class="back" href="../../#notes">← 回到專欄分享</a>
 </article>

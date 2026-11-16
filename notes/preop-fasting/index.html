@@ -33,6 +33,32 @@
  "inLanguage": "zh-Hant-TW"
 }
 </script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "首頁",
+   "item": "https://wutunglee.github.io/dr-li-anesthesia/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "專欄分享",
+   "item": "https://wutunglee.github.io/dr-li-anesthesia/#notes"
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "name": "麻醉前為什麼不能吃東西、喝水？禁食時間的「二、六、八」",
+   "item": "https://wutunglee.github.io/dr-li-anesthesia/notes/preop-fasting/"
+  }
+ ]
+}
+</script>
 <style>
 *{box-sizing:border-box}
 body{margin:0;background:#F7F6F3;color:#141414;font-family:'Noto Sans TC',system-ui,sans-serif}
@@ -66,6 +92,13 @@ th,td{border:1px solid #D9D6CF;padding:10px 12px;text-align:left;vertical-align:
 th{background:#fff}
 td:first-child{white-space:nowrap}
 .tbl{overflow-x:auto}
+.crumb{font-size:14px;color:#55575C;margin-bottom:14px}.crumb a{color:#55575C}
+.by time{font-size:13px;color:#55575C}
+.author{display:flex;gap:20px;align-items:flex-start;background:#fff;border:1px solid #D9D6CF;padding:24px;margin:48px 0 0}
+.author img{width:96px;height:96px;border-radius:50%;object-fit:cover;flex:none}
+.author p{font-size:15px;line-height:1.8;margin:0 0 8px}
+.author .an{font-size:17px;font-weight:700}
+@media(max-width:560px){.author{flex-direction:column}}
 </style>
 </head>
 <body>
@@ -77,9 +110,10 @@ td:first-child{white-space:nowrap}
 </header>
 <main>
 <article>
+<nav aria-label="路徑" class="crumb"><a href="../../">首頁</a> › <a href="../../#notes">專欄分享</a></nav>
 <span class="tag">黎醫師的健康筆記 #5</span>
 <h1>麻醉前為什麼不能吃東西、喝水？<br>禁食時間的「二、六、八」</h1>
-<div class="by"><img src="../../img/headshot.jpg" alt="黎乃良醫師">撰文／黎乃良　麻醉專科醫師</div>
+<div class="by"><img src="../../img/headshot.jpg" alt="黎乃良醫師"><span>撰文／黎乃良　麻醉專科醫師<br><time datetime="2026-11-13">最後更新：2026/11/13</time></span></div>
 <p class="lede">「開刀前一天半夜過後，不能吃也不能喝。」很多人都被這句話折磨過。其實國際上的麻醉禁食指引，早就不是一刀切的「半夜後全禁」了。</p>
 
 <h2>為什麼麻醉前要禁食？</h2>
@@ -118,6 +152,12 @@ td:first-child{white-space:nowrap}
 <p>禁食是為了安全，不是為了折磨你。弄清楚「為什麼」和「多久」，手術前那段等待就不會那麼難熬。</p>
 <h2 style="font-size:18px">參考資料</h2>
 <ol class="refs"><li>Joshi GP, et al. 2023 American Society of Anesthesiologists Practice Guidelines for Preoperative Fasting. <i>Anesthesiology</i>. 2023;138(2):132–151.</li><li>Marsman M, et al. Association of a Liberal Fasting Policy of Clear Fluids Before Surgery With Fasting Duration and Patient Well-being and Safety. <i>JAMA Surgery</i>. 2023;158(3):254–263.</li><li>Rüggeberg A, et al. Peri-operative fasting in adults: an international, multidisciplinary consensus statement. <i>Anaesthesia</i>. 2026.</li></ol>
+<aside class="author">
+<img src="../../img/headshot.jpg" alt="黎乃良醫師" width="96" height="96" loading="lazy">
+<div><p class="an">黎乃良　麻醉專科醫師</p>
+<p>台大醫學系畢業、台大醫院麻醉科專科訓練，曾任和信治癌中心醫院麻醉科資深主治醫師二十餘年，現任臺大醫院麻醉科兼任主治醫師。專長醫美與診所手術麻醉、舒眠（靜脈）麻醉、神經阻斷術與術後止痛，發表國內外期刊論文 13 篇。</p>
+<p><a href="../../#about">完整經歷 →</a>　<a href="../../#contact">預約洽詢 →</a></p></div>
+</aside>
 <p class="note">本文為衛教資訊，不能取代個別醫療診斷。實際的麻醉方式、禁食時間與用藥調整，請依您的手術單位指示與術前評估結果，與您的麻醉醫師討論決定。</p>
 <a class="back" href="../../#notes">← 回到專欄分享</a>
 </article>

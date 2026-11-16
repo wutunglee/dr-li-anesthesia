@@ -492,7 +492,7 @@ footer{background:#0B0B0B;color:#B5B5B5;border-top:1px solid #2a2a2a}
 <script>
 (function(){
   // 黎醫師完成 Apps Script 部署後，把「網頁應用程式」網址貼在這裡
-  var SCRIPT_URL = '';
+  var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxK1-vjBWAncxR1pSb4b3GR2TLTrWUhVF9-cX6YX69KdHc-0vzWUOAi3S0-AXm1rDw0oQ/exec';
   var box=document.querySelector('.cform'), f=document.getElementById('contactForm'), el=f.elements, st=document.getElementById('formStatus'), btn=f.querySelector('button');
   document.querySelectorAll('.ctabs input').forEach(function(r){r.addEventListener('change',function(){
     box.classList.toggle('personal', r.value==='personal' && r.checked); el['type'].value=document.querySelector('.ctabs input:checked').value;});});
